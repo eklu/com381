@@ -1,0 +1,123 @@
+﻿@media (min-width:800px) 
+{
+    body {
+        padding-left:15%;
+        padding-right:15%;
+        min-width:530px;
+    }
+}
+
+body
+{
+    background-color:#424242;
+    color:#FFFFFF;
+    font-family: "Segoe WP SemiLight", Verdana, Helvetica, "Lucida Grande", Arial, sans-serif;
+}
+
+.header 
+{
+    display:block;
+}
+
+    .header h1 
+    {
+        font-size:40px;
+        margin-top:5px;
+        padding-left:10px;
+        margin-bottom:-10px;
+        border-bottom: 2px solid #747474;
+        border-left: 20px solid white;
+    }
+
+    .header h2 
+    {
+        color:#b7b5b5;
+        font-size:15px;
+        float:right;
+        margin-top:-30px;
+        margin-bottom:-10px;
+        font-weight:normal;
+        
+    }
+
+.title
+{
+    display:block;
+    padding-top:30px;
+    padding-left:30px;
+    padding-bottom:20px;
+    margin-bottom:10px;
+    font-size:30px;
+    font-stretch:extra-expanded;
+    font-weight:100;
+    float:none;
+    color:#5696fb; 
+    font-weight:normal;
+    border-bottom: 2px solid #747474;
+}
+
+    .title h3 
+    {
+        float:right;
+        font-size:14px;
+    }
+
+
+h3
+{
+    color:#A4A4A4;
+    margin-top:0px;
+    margin-bottom:0;
+    padding:0;
+    padding-top:20px;
+}
+
+h4
+{
+    color:#cec8c8;
+    margin-top:10px;
+    margin-bottom:0;
+    padding:0;
+}
+
+h5 
+{
+    color:#cec8c8;
+    margin:0;
+    padding:0;
+    font-style:italic;
+    font-weight:normal;
+}
+
+p 
+{
+    padding:0;
+    margin:0;
+}
+
+ul 
+{
+    margin:0;
+}
+
+a 
+{
+    text-decoration:none;
+    color:#5696fb;
+    font-weight:normal;
+}
+
+.footer 
+{
+    margin-top:20px;
+    font-size:10px;
+    font-style:italic;
+    color:#cec8c8;
+    text-align:center;
+}
+
+img 
+{
+    margin-top:20px;
+}
+

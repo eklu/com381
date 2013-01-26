@@ -1,0 +1,76 @@
+﻿body
+{
+}
+
+.header h1 
+{
+    font-family:Palatino, serif;
+    font-variant:small-caps;
+    font-size:35px;
+    text-align:left;
+    margin-top:10px;
+    margin-bottom:0;
+    padding:0;
+}
+
+.header h2 
+{
+    visibility:hidden;
+    display:none;
+}
+
+h3
+{
+    margin-top:20px;
+    margin-bottom:0;
+    padding:0;
+}
+
+h4
+{
+    margin-top:10px;
+    margin-bottom:0;
+    padding:0;
+}
+
+h5 
+{
+    margin:0;
+    padding:0;
+    font-style:italic;
+    font-weight:normal;
+}
+
+p 
+{
+    padding:0;
+    margin:0;
+}
+
+ul 
+{
+    margin:0;
+}
+
+.footer 
+{
+    visibility:hidden;
+}
+
+.title 
+{
+   
+    font-size:20px;
+    font-variant:small-caps;
+}
+
+    .title h3 
+    {
+        visibility: hidden;
+        display:none;
+    }
+
+img 
+{
+    margin-top:20px;
+}
