@@ -12,7 +12,7 @@
     padding:0;
 }
 
-#header .contact
+#header #contact
 {
     visibility:hidden;
     display:none;
@@ -23,6 +23,7 @@ h3
     margin-top:20px;
     margin-bottom:0;
     padding:0;
+    text-transform:uppercase;
 }
 
 h4
@@ -62,7 +63,7 @@ ul
     font-variant:small-caps;
 }
 
-    #title #menu
+    ul#menu
     {
         visibility: hidden;
         display:none;
@@ -80,7 +81,7 @@ img
     margin-left: 5px;
 }
 
-.contact 
+ul#contact 
 {
     text-align:center;
     margin:0;
@@ -89,12 +90,12 @@ img
     list-style-type:none;
 }
 
-    .contact li 
+    ul#contact li 
     {
         display:inline;
     }
 
-    .contact li + li:before
+    ul#contact li + li:before
     {
         content: " | ";
         padding: 0 10px;
