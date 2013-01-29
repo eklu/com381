@@ -71,7 +71,7 @@ body
         content:"> ";
     }
 
-    #title .menu
+    #title #menu
     {
         margin-top:-30px;
         float:right;
@@ -85,7 +85,7 @@ body
             display:inline;
         }
 
-        .title .menu li + li:before
+        #title #menu li + li:before
         {
             content: " | ";
             padding: 0 10px;
