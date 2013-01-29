@@ -14,12 +14,12 @@ body
     font-family: "Segoe WP SemiLight", Verdana, Helvetica, "Lucida Grande", Arial, sans-serif;
 }
 
-.header 
+#header 
 {
     display:block;
 }
 
-    .header h1 
+    #header h1 
     {
         font-size:40px;
         margin-top:5px;
@@ -29,7 +29,7 @@ body
         border-left: 20px solid white;
     }
 
-    .header .contact
+    #header .contact
     {
         color:#b7b5b5;
         font-size:15px;
@@ -39,18 +39,18 @@ body
         list-style:none;     
     }
 
-        .header .contact li 
+        #header .contact li 
         {
             display:block;
         }
 
-        .header .contact li + li:before
+        #header .contact li + li:before
         {
             content:none;
             padding:0;
         }
 
-.title
+#title
 {
     display:block;
     padding-top:20px;
@@ -66,12 +66,12 @@ body
     border-bottom: 2px solid #747474;
 }
 
-    .title p:before 
+    #title p:before 
     {
         content:"> ";
     }
 
-    .title .menu
+    #title .menu
     {
         margin-top:-30px;
         float:right;
@@ -80,7 +80,7 @@ body
         display:inline;
     }
 
-        .title .menu li 
+        #title #menu li 
         {
             display:inline;
         }
@@ -136,7 +136,7 @@ a
     font-weight:normal;
 }
 
-.footer 
+#footer 
 {
     margin-top:20px;
     font-size:10px;

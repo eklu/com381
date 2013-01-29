@@ -2,7 +2,7 @@
 {
 }
 
-.header h1 
+#header h1 
 {
     font-family:Palatino, serif;
     font-variant:small-caps;
@@ -12,7 +12,7 @@
     padding:0;
 }
 
-.header .contact
+#header .contact
 {
     visibility:hidden;
     display:none;
@@ -51,18 +51,18 @@ ul
     margin:0;
 }
 
-.footer 
+#footer 
 {
     visibility:hidden;
 }
 
-.title 
+#title 
 {
     font-size:20px;
     font-variant:small-caps;
 }
 
-    .title .menu
+    #title #menu
     {
         visibility: hidden;
         display:none;
