@@ -1,181 +1,315 @@
-﻿@media (min-width:800px) {
-    body {
-        padding-left: 20%;
-        padding-right: 10%;
-        min-width: 530px;
-    }
-
-    ul#menu {
-        text-align: right;
-        position: absolute;
-        top: 125px;
-        right: 85%;
-        margin: 0;
-        line-height: 2em;
-        font-size: 16px;
-        list-style-type: none;
-    }
+﻿/*RESET CSS*/
+/* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
+html {
+    color: #000;
+    background: #FFF;
 }
 
-@media (max-width:799px) {
-    body {
-        padding-left: 10%;
-        padding-right: 10%;
-        min-width: 530px;
-    }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
 
-    ul#menu {
-        text-transform: lowercase;
-        margin-top: -60px;
-        float: right;
-    }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-        ul#menu li {
-            display: inline;
-        }
+fieldset, img {
+    border: 0;
+}
 
-            ul#menu li + li:before {
-                content: " | ";
-                padding: 0 10px;
-            }
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input, textarea, select {
+    *font-size: 100%;
+}
+
+legend {
+    color: #000;
+}
+
+#yui3-css-stamp.cssreset {
+    display: none;
+}
+
+/*DEFAULT STYLE MOBILE*/
+html {
+    background-color: #cbcbcb;
 }
 
 body {
-    background-color: #424242;
-    color: #FFFFFF;
+    margin: 0 20px;
     font-family: "Segoe WP SemiLight", Verdana, Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 24px;
 }
 
-#header {
-    display: block;
-}
-
-    #header h1 {
-        font-size: 40px;
-        margin-top: 5px;
-        padding-left: 10px;
-        margin-bottom: -10px;
-        border-bottom: 2px solid #747474;
-        border-left: 20px solid white;
-        text-transform: lowercase;
-    }
-
-    #header .contact {
-        color: #b7b5b5;
-        font-size: 15px;
-        float: right;
-        margin-top: -40px;
-        font-weight: normal;
-        list-style: none;
-    }
-
-        #header .contact li {
-            display: block;
-        }
-
-            #header .contact li + li:before {
-                content: none;
-                padding: 0;
-            }
-
-p#title {
-    display: block;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    font-stretch: extra-expanded;
-    font-weight: 100;
-    float: none;
-    color: #5696fb;
-    font-weight: normal;
-    border-bottom: 2px solid #747474;
-    text-transform: lowercase;
-}
-
-#title p:before {
-    content: "> ";
-}
-
-
-
-h3 {
-    color: #A4A4A4;
-    margin-top: 0px;
-    margin-bottom: 0;
-    padding: 0;
-    padding-top: 20px;
-    text-transform: uppercase;
-}
-
-h4 {
-    color: #cec8c8;
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-h5 {
-    color: #cec8c8;
-    margin: 0;
-    padding: 0;
-    font-style: italic;
-    font-weight: normal;
-}
-
-p {
-    padding: 0;
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: #5696fb;
-    font-weight: normal;
-}
-
-p#footer {
-    margin-top: 20px;
-    font-size: 10px;
-    font-style: italic;
-    color: #cec8c8;
-    text-align: center;
-}
-
-img {
-    margin-top: 20px;
-}
-
-.dates {
-    border-left: 2px solid white;
-    padding-left: 5px;
-    margin-left: 5px;
-}
-
-ul#contact {
-    padding: 0;
+nav {
     display: inline;
-    list-style-type: none;
+    list-style: none outside none;
 }
 
-    ul#contact li {
+    nav li {
         display: inline;
     }
 
-        ul#contact li + li:before {
+        nav li + li:before {
+            content: "  ";
+            padding: 0 10px;
+        }
+
+#nav-bar {
+    text-align: center;
+    float: left;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#main {
+    padding-top: 5%;
+}
+
+#site-title {
+    text-transform: lowercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#page-title {
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 1.5em;
+}
+
+#logo {
+}
+
+    #logo img {
+        width: 100px;
+    }
+
+#contact {
+    display: inline;
+}
+
+    #contact li {
+        display: inline;
+    }
+
+        #contact li + li:before {
             content: " | ";
             padding: 0 10px;
         }
 
-ul.portfolio-items {
-    list-style-type: none;
+#content {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-    ul.portfolio-items img {
-        width: 500px;
+
+#links {
+    display: inline;
+    text-align: center;
+}
+
+    #links li {
+        display: inline;
     }
+
+    #links img {
+        width: inherit;
+        width: 50px;
+    }
+
+#footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: smaller;
+}
+
+/*MOBILE LANDSCAPE*/
+@media (min-width:500px) {
+
+    #nav-bar {
+        width: 100px;
+        margin: 0;
+    }
+
+    #site-title {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        font-size: 3em;
+        margin: 0;
+    }
+
+    #page-title {
+        padding-top: 10px;
+        text-align: left;
+        font-size: 2em;
+        clear: both;
+    }
+
+    nav {
+        padding-top: 96px;
+        left: 150px;
+        position: absolute;
+        text-align: left;
+    }
+
+    #logo {
+        float: left;
+    }
+
+    #contact {
+        position: absolute;
+        top: 10px;
+        left: 150px;
+    }
+
+    #footer {
+        font-size: small;
+    }
+}
+
+
+/*TABLET LANDSCAPE*/
+@media (min-width:800px) {
+}
+
+/*DESKTOP*/
+@media (min-width:900px) {
+    body {
+        margin: 10px 10px;
+    }
+
+    #main {
+        margin: 0;
+        margin-left: 22%;
+        padding-left: 20px;
+        float: left;
+        border-left: 2px solid #aaaaaa;
+    }
+
+    #nav-bar {
+        width: 20%;
+        max-width: 200px;
+        margin: 10px 0;
+        height: 100%;
+        padding-right: 1.5%;
+        float: left;
+        position: fixed;
+        text-align: right;
+        overflow: auto;
+    }
+
+    #site-title {
+        margin: 0;
+        padding: 0;
+        position: static;
+        font-size: 3em;
+        text-align: left;
+    }
+
+    #page-title {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        position: static;
+        text-align: left;
+        font-size: 2em;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        padding-right: 10px;
+        position: static;
+        display: block;
+        line-height: 40px;
+        text-align: right;
+    }
+
+        nav li {
+            display: block;
+        }
+
+    #logo {
+        float: none;
+    }
+
+        #logo img {
+            width: 80%;
+            min-width: 100px;
+        }
+
+    #contact {
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
+        padding-right: 10px;
+        position: static;
+        display: block;
+    }
+
+        #contact li {
+            display: block;
+        }
+
+            #contact li + li:before {
+                content: none;
+            }
+
+    #footer {
+        font-size: medium;
+    }
+
+    #links {
+        position: absolute;
+        right: 5%;
+        top: 10%;
+    }
+}
