@@ -171,7 +171,7 @@ nav {
 }
 
 /*MOBILE LANDSCAPE*/
-@media (orientation:landscape) {
+@media (min-width:400px) {
 
     #nav-bar {
         width: 100px;
