@@ -149,25 +149,45 @@ nav {
     margin-bottom: 20px;
 }
 
-
 #links {
     display: inline;
     text-align: center;
 }
 
-    #links li {
-        display: inline;
+    #links a {
+        font-size:50px;
+        text-decoration:none;
     }
 
-    #links img {
-        width: inherit;
+    #links a span {
+        visibility:hidden;
+    }
+
+    #links li {
+        display: inline-block;
+        height: 50px;
         width: 50px;
     }
+
+        #links li:nth-child(1) {
+            background: transparent url("images/maillogo.png") no-repeat 0 0;
+            background-size:50px;
+        }
+
+        #links li:nth-child(2) {
+            background: transparent url("images/g+logo.png") no-repeat 0 0;
+            background-size:50px;
+        }
+
+        #links li:nth-child(3) {
+            background: transparent url("images/inlogo.png") no-repeat 0 0;
+            background-size:50px;
+        }
 
 #footer {
     margin-top: 10px;
     text-align: center;
-    font-size: smaller;
+    font-size: x-small;
 }
 
 /*MOBILE LANDSCAPE*/
@@ -181,8 +201,8 @@ nav {
     #site-title {
         position: absolute;
         top: 50px;
-        left: 150px;
-        font-size: 3em;
+        left: 130px;
+        font-size: 2.5em;
         margin: 0;
     }
 
@@ -195,7 +215,7 @@ nav {
 
     nav {
         padding-top: 96px;
-        left: 150px;
+        left: 130px;
         position: absolute;
         text-align: left;
     }

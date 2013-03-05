@@ -80,6 +80,10 @@ body {
     line-height: 24px;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     display: inline;
     list-style: none outside none;
@@ -94,7 +98,7 @@ nav {
     }
 
         nav li + li:before {
-            content: "  ";
+            content: " | ";
             padding: 0 10px;
         }
 
@@ -167,10 +171,25 @@ nav {
         display: inline;
     }
 
-    #links img {
-        width: inherit;
-        width: 50px;
+    #links li a {
+        display: none;
     }
+
+        #links li:nth-child(1):after {
+            content:"Email: eklu@hawk.iit.edu";
+        }
+
+        #links li:nth-child(2):after {
+            content:"Google+:  http://gplus.to/eklu";
+        }
+
+        #links li:nth-child(3):after {
+            content:"LinkedIn: http://lnkdin.me/eklu";
+        }
+
+        #links li + li:before {
+            content: " | ";
+        }
 
 #footer {
     margin-top: 10px;
@@ -180,7 +199,7 @@ nav {
 
 
 /*LANDSCAPE*/
-@media (min-width:900px) {
+@media (min-width:700px) {
     body {
         margin: 10px 10px;
     }
@@ -236,6 +255,10 @@ nav {
             display: block;
         }
 
+            nav li+li:before {
+                content:" ";
+            }
+
     #logo {
         float: none;
     }
@@ -269,6 +292,16 @@ nav {
     #links {
         position: absolute;
         right: 5%;
-        top: 10%;
+        top: 5%;
+        display:block;
     }
+
+        #links li {
+            display: block;
+        }
+
+            #links li + li:before {
+                content: " ";
+            }
+
 }
