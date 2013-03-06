@@ -190,8 +190,8 @@ nav {
     font-size: x-small;
 }
 
-/*MOBILE LANDSCAPE*/
-@media (min-width:400px) and (orientation:landscape){
+/*MOBILE LANDSCAPE & TABLET PORTRAIT*/
+@media (min-width:400px) and (orientation:landscape), (min-device-width:700px) and (orientation:portrait) {
 
     #nav-bar {
         width: 100px;
@@ -233,11 +233,6 @@ nav {
     #footer {
         font-size: small;
     }
-}
-
-
-/*TABLET LANDSCAPE*/
-@media (min-width:800px) {
 }
 
 /*DESKTOP*/
