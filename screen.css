@@ -74,27 +74,47 @@ legend {
 
 /*DEFAULT STYLE MOBILE*/
 html {
-    background-color: #cbcbcb;
+    background-color: #c1c1c1;
 }
 
 body {
     margin: 0 20px;
-    font-family: "Segoe WP SemiLight", Verdana, Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-family: 'Bitter';
     font-size: 1em;
     line-height: 24px;
 }
+
+a {
+    text-decoration:none;
+    color: #5b5b5b;
+}
+
+    a:hover {
+        color: #5185b1;
+    }
 
 nav {
     display: inline;
     list-style: none outside none;
 }
+    nav a {
+        text-decoration:none;
+        text-transform:uppercase;
+        color: black;
+    }
+
+        nav a:hover {
+            color: #848ea1;
+        }
 
     nav li {
         display: inline;
+        padding:5px;
+        background-color:rgba(127, 155, 184,.5);
     }
 
         nav li + li:before {
-            content: "  ";
+            content: none;
             padding: 0 10px;
         }
 
@@ -111,7 +131,8 @@ nav {
 }
 
 #site-title {
-    text-transform: lowercase;
+    font-family: 'Princess Sofia';
+    color: #808080;
     font-weight: bold;
     text-align: center;
     font-size: 2em;
@@ -185,6 +206,7 @@ nav {
         }
 
 #footer {
+    color: #5b5b5b;
     margin-top: 10px;
     text-align: center;
     font-size: x-small;
@@ -239,14 +261,14 @@ nav {
 @media (min-width:900px) {
     body {
         margin: 10px 10px;
+        overflow:hidden;
     }
 
     #main {
         margin: 0;
-        margin-left: 22%;
+        margin-left: 20%;
         padding-left: 20px;
         float: left;
-        border-left: 2px solid #aaaaaa;
     }
 
     #nav-bar {
@@ -254,46 +276,65 @@ nav {
         max-width: 200px;
         margin: 10px 0;
         height: 100%;
-        padding-right: 1.5%;
+        top:-10px;
         float: left;
         position: fixed;
         text-align: right;
         overflow: auto;
+        background-color: rgba(127, 155, 184,.4);
+        
     }
 
     #site-title {
         margin: 0;
         padding: 0;
         position: static;
-        font-size: 3em;
+        font-size: 3.5em;
         text-align: left;
     }
 
     #page-title {
         margin: 0;
-        margin-top: 20px;
+        margin-top: 30px;
         padding: 0;
         position: static;
         text-align: left;
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     nav {
         margin: 0;
+        margin-top:20px;
         padding: 0;
-        padding-right: 10px;
         position: static;
         display: block;
         line-height: 40px;
-        text-align: right;
+        text-align: left;
     }
+        nav a:hover {
+            color: #5b5b5b;
+        }
 
         nav li {
             display: block;
+            background-color:rgba(124, 136, 143,.5);
+            /*border-top:1px solid black;*/
+            border-bottom:1px solid black;
+            padding-left:15%;
+        }
+
+            nav li:nth-child(1) {
+                 border-top:1px solid black;
+            }
+
+        nav li + li:before {
+            content: none;
+            padding: 0;
         }
 
     #logo {
         float: none;
+        text-align:center;
     }
 
         #logo img {
@@ -324,7 +365,7 @@ nav {
 
     #links {
         position: absolute;
-        right: 5%;
+        left:80%;
         top: 10%;
     }
 }
