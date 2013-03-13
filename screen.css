@@ -95,6 +95,7 @@ a {
 
 nav {
     display: inline;
+    line-height:36px;
     list-style: none outside none;
 }
     nav a {
