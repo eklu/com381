@@ -74,7 +74,8 @@ legend {
 
 /*DEFAULT STYLE MOBILE*/
 html {
-    background-color: #c1c1c1;
+    background-color: #FFF;
+    overflow:hidden;
 }
 
 body {
@@ -86,17 +87,18 @@ body {
 
 a {
     text-decoration:none;
-    color: #5b5b5b;
+    color: #5185b1;
 }
 
     a:hover {
-        color: #5185b1;
+        color: #5b5b5b;
     }
 
 nav {
     display: inline;
     line-height:36px;
     list-style: none outside none;
+    font-size:small;
 }
     nav a {
         text-decoration:none;
@@ -132,17 +134,21 @@ nav {
 }
 
 #site-title {
-    font-family: 'Princess Sofia', 'Segoe WP SemiLight', sans-serif;
+    font-family: 'Codystar', 'Segoe WP SemiLight', sans-serif;
     color: #808080;
     text-align: center;
     font-size: 2em;
+    font-weight:100;
     margin-bottom: 20px;
 }
+    #site-title .lastname {
+        font-weight:bold;
+    }
 
 #page-title {
     text-align: center;
     text-transform: lowercase;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 #logo {
@@ -224,22 +230,23 @@ nav {
         position: absolute;
         top: 50px;
         left: 130px;
-        font-size: 2.5em;
+        font-size: 2.25em;
         margin: 0;
     }
 
     #page-title {
         padding-top: 10px;
         text-align: left;
-        font-size: 2em;
+        font-size: 2.5em;
         clear: both;
     }
 
     nav {
-        padding-top: 96px;
+        padding-top: 86px;
         left: 130px;
         position: absolute;
         text-align: left;
+        font-size:medium;
     }
 
     #logo {
@@ -261,12 +268,11 @@ nav {
 @media (min-width:900px) {
     body {
         margin: 10px 10px;
-        overflow:hidden;
     }
 
     #main {
         margin: 0;
-        margin-left: 20%;
+        margin-left: 200px;
         padding-left: 20px;
         float: left;
     }
@@ -281,7 +287,9 @@ nav {
         position: fixed;
         text-align: right;
         overflow: auto;
-        background-color: rgba(127, 155, 184,.4);
+        background-color: #d0d9e2;
+        /*background-color: rgba(127, 155, 184,.4);
+        background-image:url("images/navbarbg.jpg");*/
         
     }
 
@@ -289,7 +297,7 @@ nav {
         margin: 0;
         padding: 0;
         position: static;
-        font-size: 3.5em;
+        font-size: 3em;
         text-align: left;
     }
 
@@ -312,7 +320,7 @@ nav {
         text-align: left;
     }
         nav a:hover {
-            color: #5b5b5b;
+            color: #a6b5bf;
         }
 
         nav li {
@@ -361,11 +369,12 @@ nav {
 
     #footer {
         font-size: medium;
+        text-align:left;
     }
 
     #links {
         position: absolute;
-        left:80%;
-        top: 10%;
+        right:30px;
+        top: 15%;
     }
 }
