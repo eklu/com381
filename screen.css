@@ -1,8 +1,9 @@
-﻿/*RESET CSS*/
+/*RESET CSS*/
 /* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
 html {
     color: #000;
     background: #FFF;
+    overflow-x: hidden;
 }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
@@ -75,7 +76,6 @@ legend {
 /*DEFAULT STYLE MOBILE*/
 html {
     background-color: #FFF;
-    overflow:hidden;
 }
 
 body {
@@ -83,6 +83,28 @@ body {
     font-family: 'Bitter', 'Segoe WP SemiLight', sans-serif;
     font-size: 1em;
     line-height: 24px;
+}
+
+h3 {
+    padding:5px;
+    font-size: 1.2em;
+    text-transform:uppercase;
+    margin-top:30px;
+    margin-bottom:5px;
+}
+
+    h3:before {
+        content: "+ ";
+    }
+
+h4 {
+    font-weight:bold;
+    margin-top:10px;
+}
+
+ul {
+    list-style:square;
+    margin-left: 15px;
 }
 
 a {
@@ -158,19 +180,6 @@ nav {
         width: 100px;
     }
 
-#contact {
-    display: inline;
-}
-
-    #contact li {
-        display: inline;
-    }
-
-        #contact li + li:before {
-            content: " | ";
-            padding: 0 10px;
-        }
-
 #content {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -218,6 +227,12 @@ nav {
     font-size: x-small;
 }
 
+.dates:before {
+   content:" | ";
+}
+
+.clickable {cursor: pointer;}
+
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
 @media (min-width:400px) and (orientation:landscape), (min-device-width:700px) and (orientation:portrait) {
 
@@ -243,7 +258,7 @@ nav {
 
     nav {
         padding-top: 86px;
-        left: 130px;
+        left: 115px;
         position: absolute;
         text-align: left;
         font-size:medium;
@@ -296,6 +311,7 @@ nav {
     #site-title {
         margin: 0;
         padding: 0;
+        margin-top:-30px;
         position: static;
         font-size: 3em;
         text-align: left;
@@ -311,7 +327,9 @@ nav {
     }
 
     nav {
+        left:0;
         margin: 0;
+        margin-left:-15px;
         margin-top:20px;
         padding: 0;
         position: static;
@@ -320,7 +338,7 @@ nav {
         text-align: left;
     }
         nav a:hover {
-            color: #a6b5bf;
+            color: #FFF;
         }
 
         nav li {
