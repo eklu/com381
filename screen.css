@@ -86,7 +86,6 @@ body {
 }
 
 h3 {
-    padding:5px;
     font-size: 1.2em;
     text-transform:uppercase;
     margin-top:30px;
@@ -226,8 +225,6 @@ nav {
 .dates:before {
    content:" | ";
 }
-
-.clickable {cursor: pointer;}
 
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
 @media (min-width:400px) and (orientation:landscape), (min-device-width:700px) and (orientation:portrait) {
