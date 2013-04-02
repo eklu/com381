@@ -3,7 +3,6 @@
 html {
     color: #000;
     background: #FFF;
-    overflow-x: hidden;
 }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
@@ -141,9 +140,7 @@ nav {
 #nav-bar {
     text-align: center;
     float: left;
-    top: 0;
     width: 100%;
-    margin-bottom: 10px;
 }
 
 #main {
@@ -157,6 +154,8 @@ nav {
     font-size: 2em;
     font-weight:100;
     margin-bottom: 20px;
+    padding-top:10px;
+    clear:both;
 }
     #site-title .lastname {
         font-weight:bold;
@@ -186,7 +185,7 @@ nav {
 }
 
     #links a {
-        font-size:50px;
+        font-size:18px;
         text-decoration:none;
     }
 
@@ -196,7 +195,7 @@ nav {
 
     #links li {
         display: inline-block;
-        height: 50px;
+        height: 55px;
         width: 50px;
     }
 
@@ -227,11 +226,10 @@ nav {
 }
 
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
-@media (min-width:400px) and (orientation:landscape), (min-device-width:700px) and (orientation:portrait) {
+@media (min-width:400px) and (orientation:landscape), (min-width:700px) and (orientation:portrait) {
 
     #nav-bar {
         width: 100px;
-        margin: 0;
     }
 
     #site-title {
@@ -239,7 +237,7 @@ nav {
         top: 50px;
         left: 130px;
         font-size: 2.25em;
-        margin: 0;
+        padding:0;
     }
 
     #page-title {
@@ -261,12 +259,6 @@ nav {
         float: left;
     }
 
-    #contact {
-        position: absolute;
-        top: 10px;
-        left: 150px;
-    }
-
     #footer {
         font-size: small;
     }
@@ -275,30 +267,24 @@ nav {
 /*DESKTOP*/
 @media (min-width:900px) {
     body {
-        margin: 10px 10px;
+        margin: 0 10px;
     }
 
     #main {
-        margin: 0;
         margin-left: 200px;
         padding-left: 20px;
-        float: left;
     }
 
     #nav-bar {
         width: 20%;
         max-width: 200px;
-        margin: 10px 0;
+        margin: 0;
         height: 100%;
-        top:-10px;
         float: left;
         position: fixed;
         text-align: right;
         overflow: auto;
         background-color: #d0d9e2;
-        /*background-color: rgba(127, 155, 184,.4);
-        background-image:url("images/navbarbg.jpg");*/
-        
     }
 
     #site-title {
@@ -311,17 +297,13 @@ nav {
     }
 
     #page-title {
-        margin: 0;
         margin-top: 30px;
-        padding: 0;
         position: static;
         text-align: left;
         font-size: 2.5em;
     }
 
     nav {
-        left:0;
-        margin: 0;
         margin-left:-15px;
         margin-top:20px;
         padding: 0;
@@ -337,7 +319,6 @@ nav {
         nav li {
             display: block;
             background-color:rgba(124, 136, 143,.5);
-            /*border-top:1px solid black;*/
             border-bottom:1px solid black;
             padding-left:15%;
         }
@@ -360,23 +341,6 @@ nav {
             width: 80%;
             min-width: 100px;
         }
-
-    #contact {
-        margin: 0;
-        margin-bottom: 50px;
-        padding: 0;
-        padding-right: 10px;
-        position: static;
-        display: block;
-    }
-
-        #contact li {
-            display: block;
-        }
-
-            #contact li + li:before {
-                content: none;
-            }
 
     #footer {
         font-size: medium;
