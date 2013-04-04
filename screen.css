@@ -110,11 +110,15 @@ a {
         color: #5b5b5b;
     }
 
+p {
+    margin-bottom:10px;
+}
+
 nav {
-    display: inline;
+    display: block;
     line-height:36px;
     list-style: none outside none;
-    font-size:small;
+    font-size:12px;
 }
     nav a {
         text-decoration:none;
@@ -136,6 +140,16 @@ nav {
             content: none;
             padding: 0 10px;
         }
+
+.selected a {
+    color: white;
+}
+
+.caption {
+    color: #5b5b5b;
+    font-size:x-small;
+    font-style:italic;
+}
 
 #nav-bar {
     text-align: center;
@@ -179,6 +193,19 @@ nav {
     margin-bottom: 20px;
 }
 
+    #content .right {
+        margin-top:20px;
+    }
+
+.centerPos {
+    text-align:center;
+}
+    .centerPos .selfpic {
+        width:100%;
+        max-width:300px;
+    }
+
+
 #links {
     display: inline;
     text-align: center;
@@ -219,6 +246,7 @@ nav {
     margin-top: 10px;
     text-align: center;
     font-size: x-small;
+    clear:both;
 }
 
 .dates:before {
@@ -227,7 +255,7 @@ nav {
 
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
 @media (min-width:400px) and (orientation:landscape), (min-width:700px) and (orientation:portrait) {
-
+    
     #nav-bar {
         width: 100px;
     }
@@ -253,6 +281,26 @@ nav {
         position: absolute;
         text-align: left;
         font-size:medium;
+    }
+
+    #content .left {
+        float:left;
+        width:65%;
+        padding-right:1%;
+        border-right: 1px solid #dedede;
+    }
+
+    #content .right {
+        text-align:left;
+        margin:0;
+        padding-left:1%;
+        float:left;
+        width:32%;
+
+    }
+    
+    .centerPos {
+    text-align:left;
     }
 
     #logo {
@@ -332,6 +380,16 @@ nav {
             padding: 0;
         }
 
+    .selected a {
+        color: white;
+        margin-left:-20px;
+    }
+
+    .selected a:before {
+        content:">";
+        padding-right:10px;
+    }
+
     #logo {
         float: none;
         text-align:center;
@@ -350,6 +408,6 @@ nav {
     #links {
         position: absolute;
         right:30px;
-        top: 15%;
+        top: 60px;
     }
 }
