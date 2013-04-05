@@ -89,6 +89,7 @@ h3 {
     text-transform:uppercase;
     margin-top:30px;
     margin-bottom:5px;
+    color:#004E6D;
 }
 
 h4 {
@@ -99,6 +100,7 @@ h4 {
 ul {
     list-style:square;
     margin-left: 15px;
+    padding-bottom:10px;
 }
 
 a {
@@ -145,6 +147,12 @@ nav {
     color: white;
 }
 
+.topic {
+    font-style:italic;
+    display:block;
+    color:#55556b;
+}
+
 .caption {
     color: #5b5b5b;
     font-size:x-small;
@@ -163,7 +171,7 @@ nav {
 
 #site-title {
     font-family: 'Codystar', 'Segoe WP SemiLight', sans-serif;
-    color: #808080;
+    color:#808080;
     text-align: center;
     font-size: 2em;
     font-weight:100;
@@ -179,6 +187,7 @@ nav {
     text-align: center;
     text-transform: lowercase;
     font-size: 2em;
+        color:#004E6D;
 }
 
 #logo {
@@ -195,7 +204,12 @@ nav {
 
     #content .right {
         margin-top:20px;
+        border-top:1px solid #808080;
     }
+
+        #content .right li{
+            padding-bottom:10px;
+        }
 
 .centerPos {
     text-align:center;
@@ -291,6 +305,7 @@ nav {
     }
 
     #content .right {
+        border:none;
         text-align:left;
         margin:0;
         padding-left:1%;
@@ -308,6 +323,7 @@ nav {
     }
 
     #footer {
+        padding-top:10px;
         font-size: small;
     }
 }
@@ -401,7 +417,6 @@ nav {
         }
 
     #footer {
-        font-size: medium;
         text-align:left;
     }
 
