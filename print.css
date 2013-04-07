@@ -1,4 +1,4 @@
-﻿/*RESET CSS*/
+/*RESET CSS*/
 /* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
 html {
     color: #000;
@@ -153,10 +153,23 @@ legend {
         margin-bottom: 20px;
     }
 
-        #content .right {
-            margin-top:20px;
-            border-top:1px solid #808080;
-        }
+    .centerPos {
+        text-align: left;
+    }
+
+    #left .centerPos {
+        text-align: center;
+    }
+
+    .centerPos img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #left .centerPos img {
+        max-width: 500px;
+    }
+
 
     #links {
         text-align: center;
@@ -192,8 +205,9 @@ legend {
 
     #footer {
         margin-top: 10px;
-        text-align: center;
+        text-align: left;
         font-size: medium;
+        clear: both;
     }
 
         #footer img {
@@ -201,8 +215,8 @@ legend {
         }
 
     .topic {
-    font-style:italic;
-    display:block;
+        font-style: italic;
+        display: block;
     }
 
     .caption {

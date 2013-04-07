@@ -86,26 +86,26 @@ body {
 
 h3 {
     font-size: 1.2em;
-    text-transform:uppercase;
-    margin-top:30px;
-    margin-bottom:5px;
-    color:#004E6D;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #004E6D;
 }
 
 h4 {
-    font-weight:bold;
-    margin-top:10px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 ul {
-    list-style:square;
+    list-style: square;
     margin-left: 15px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 a {
-    text-decoration:none;
-    color: #5185b1;
+    text-decoration: none;
+    color: #7eb1c2;
 }
 
     a:hover {
@@ -113,18 +113,19 @@ a {
     }
 
 p {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 nav {
     display: block;
-    line-height:36px;
+    line-height: 36px;
     list-style: none outside none;
-    font-size:12px;
+    font-size: 12px;
 }
+
     nav a {
-        text-decoration:none;
-        text-transform:uppercase;
+        text-decoration: none;
+        text-transform: uppercase;
         color: black;
     }
 
@@ -134,8 +135,8 @@ nav {
 
     nav li {
         display: inline;
-        padding:5px;
-        background-color:rgba(127, 155, 184,.5);
+        padding: 5px;
+        background-color: rgba(127, 155, 184,.5);
     }
 
         nav li + li:before {
@@ -148,15 +149,15 @@ nav {
 }
 
 .topic {
-    font-style:italic;
-    display:block;
-    color:#55556b;
+    font-style: italic;
+    display: block;
+    color: #55556b;
 }
 
 .caption {
     color: #5b5b5b;
-    font-size:x-small;
-    font-style:italic;
+    font-size: x-small;
+    font-style: italic;
 }
 
 #nav-bar {
@@ -171,23 +172,24 @@ nav {
 
 #site-title {
     font-family: 'Codystar', 'Segoe WP SemiLight', sans-serif;
-    color:#808080;
+    color: #808080;
     text-align: center;
     font-size: 2em;
-    font-weight:100;
+    font-weight: 100;
     margin-bottom: 20px;
-    padding-top:10px;
-    clear:both;
+    padding-top: 10px;
+    clear: both;
 }
+
     #site-title .lastname {
-        font-weight:bold;
+        font-weight: bold;
     }
 
 #page-title {
     text-align: center;
     text-transform: lowercase;
     font-size: 2em;
-        color:#004E6D;
+    color: #004E6D;
 }
 
 #logo {
@@ -202,22 +204,27 @@ nav {
     margin-bottom: 20px;
 }
 
-    #content .right {
-        margin-top:20px;
-        border-top:1px solid #808080;
-    }
+#right {
+    margin-top: 20px;
+    border-top: 1px solid #808080;
+}
 
-        #content .right li{
-            padding-bottom:10px;
-        }
+    #right li {
+        padding-bottom: 10px;
+    }
 
 .centerPos {
-    text-align:center;
+    text-align: center;
 }
-    .centerPos .selfpic {
-        width:100%;
-        max-width:300px;
+
+    .centerPos img {
+        width: 100%;
+        max-width: 300px;
     }
+
+#left .centerPos img {
+    max-width: 500px;
+}
 
 
 #links {
@@ -226,13 +233,13 @@ nav {
 }
 
     #links a {
-        font-size:18px;
-        text-decoration:none;
+        font-size: 18px;
+        text-decoration: none;
     }
 
-    #links a span {
-        visibility:hidden;
-    }
+        #links a span {
+            visibility: hidden;
+        }
 
     #links li {
         display: inline-block;
@@ -242,17 +249,17 @@ nav {
 
         #links li:nth-child(1) {
             background: transparent url("images/maillogo.png") no-repeat 0 0;
-            background-size:50px;
+            background-size: 50px;
         }
 
         #links li:nth-child(2) {
             background: transparent url("images/g+logo.png") no-repeat 0 0;
-            background-size:50px;
+            background-size: 50px;
         }
 
         #links li:nth-child(3) {
             background: transparent url("images/inlogo.png") no-repeat 0 0;
-            background-size:50px;
+            background-size: 50px;
         }
 
 #footer {
@@ -260,16 +267,16 @@ nav {
     margin-top: 10px;
     text-align: center;
     font-size: x-small;
-    clear:both;
+    clear: both;
 }
 
 .dates:before {
-   content:" | ";
+    content: " | ";
 }
 
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
-@media (min-width:400px) and (orientation:landscape), (min-width:700px) and (orientation:portrait) {
-    
+@media (min-width:400px) and (orientation:landscape) {
+
     #nav-bar {
         width: 100px;
     }
@@ -279,7 +286,7 @@ nav {
         top: 50px;
         left: 130px;
         font-size: 2.25em;
-        padding:0;
+        padding: 0;
     }
 
     #page-title {
@@ -294,37 +301,47 @@ nav {
         left: 115px;
         position: absolute;
         text-align: left;
-        font-size:medium;
-    }
-
-    #content .left {
-        float:left;
-        width:65%;
-        padding-right:1%;
-        border-right: 1px solid #dedede;
-    }
-
-    #content .right {
-        border:none;
-        text-align:left;
-        margin:0;
-        padding-left:1%;
-        float:left;
-        width:32%;
-
-    }
-    
-    .centerPos {
-    text-align:left;
+        font-size: medium;
     }
 
     #logo {
         float: left;
     }
 
+    #links {
+        clear: both;
+    }
+
     #footer {
-        padding-top:10px;
+        clear: both;
+        padding-top: 10px;
         font-size: small;
+    }
+}
+
+@media (min-width:700px) {
+    #left {
+        float: left;
+        width: 65%;
+        padding-right: 1%;
+        border-right: 1px solid #dedede;
+    }
+
+    #right {
+        border: none;
+        text-align: left;
+        margin: 0;
+        padding-left: 1%;
+        float: left;
+        width: 32%;
+    }
+
+    .centerPos {
+        text-align: left;
+    }
+
+    #left .centerPos {
+        text-align: center;
     }
 }
 
@@ -354,7 +371,7 @@ nav {
     #site-title {
         margin: 0;
         padding: 0;
-        margin-top:-30px;
+        margin-top: -30px;
         position: static;
         font-size: 3em;
         text-align: left;
@@ -368,47 +385,48 @@ nav {
     }
 
     nav {
-        margin-left:-15px;
-        margin-top:20px;
+        margin-left: -15px;
+        margin-top: 20px;
         padding: 0;
         position: static;
         display: block;
         line-height: 40px;
         text-align: left;
     }
+
         nav a:hover {
             color: #FFF;
         }
 
         nav li {
             display: block;
-            background-color:rgba(124, 136, 143,.5);
-            border-bottom:1px solid black;
-            padding-left:15%;
+            background-color: rgba(124, 136, 143,.5);
+            border-bottom: 1px solid black;
+            padding-left: 15%;
         }
 
             nav li:nth-child(1) {
-                 border-top:1px solid black;
+                border-top: 1px solid black;
             }
 
-        nav li + li:before {
-            content: none;
-            padding: 0;
-        }
+            nav li + li:before {
+                content: none;
+                padding: 0;
+            }
 
     .selected a {
         color: white;
-        margin-left:-20px;
+        margin-left: -20px;
     }
 
-    .selected a:before {
-        content:">";
-        padding-right:10px;
-    }
+        .selected a:before {
+            content: ">";
+            padding-right: 10px;
+        }
 
     #logo {
         float: none;
-        text-align:center;
+        text-align: center;
     }
 
         #logo img {
@@ -417,12 +435,12 @@ nav {
         }
 
     #footer {
-        text-align:left;
+        text-align: left;
     }
 
     #links {
         position: absolute;
-        right:30px;
+        right: 30px;
         top: 60px;
     }
 }
