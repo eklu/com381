@@ -8,62 +8,62 @@
 
 <url>
   <loc>http://emmanuelklu.com/</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://emmanuelklu.com/index.html</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://emmanuelklu.com/bio.html</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://emmanuelklu.com/resume.html</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://emmanuelklu.com/portfolio.html</loc>
-  <lastmod>2013-04-07T01:59:38+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://emmanuelklu.com/research.html</loc>
+  <lastmod>2013-04-07T02:57:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://emmanuelklu.com/projects-personal.html</loc>
+  <lastmod>2013-04-07T02:57:49+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://emmanuelklu.com/projects-school.html</loc>
+  <lastmod>2013-04-07T02:57:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://emmanuelklu.com/interests.html</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://emmanuelklu.com/involvement.html</loc>
-  <lastmod>2013-04-07T01:59:38+00:00</lastmod>
+  <lastmod>2013-04-07T02:57:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/research.html</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/projects-personal.html</loc>
-  <lastmod>2013-04-07T01:59:38+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/projects-school.html</loc>
-  <lastmod>2013-04-07T01:59:39+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 </urlset>
