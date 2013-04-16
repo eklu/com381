@@ -248,17 +248,17 @@ nav {
     }
 
         #links li:nth-child(1) {
-            background: transparent url("images/maillogo.png") no-repeat 0 0;
+            background: transparent url("../images/maillogo.png") no-repeat 0 0;
             background-size: 50px;
         }
 
         #links li:nth-child(2) {
-            background: transparent url("images/g+logo.png") no-repeat 0 0;
+            background: transparent url("../images/g+logo.png") no-repeat 0 0;
             background-size: 50px;
         }
 
         #links li:nth-child(3) {
-            background: transparent url("images/inlogo.png") no-repeat 0 0;
+            background: transparent url("../images/inlogo.png") no-repeat 0 0;
             background-size: 50px;
         }
 
@@ -273,6 +273,23 @@ nav {
 .dates:before {
     content: " | ";
 }
+
+#gallery {
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+    margin:0;
+}
+
+    #gallery li {
+        list-style-type: none;
+        display: inline;
+        padding-right: 20px;
+    }
+
+    #gallery img {
+        height: 200px;
+    }
 
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
 @media (min-width:400px) and (orientation:landscape) {
@@ -342,6 +359,10 @@ nav {
 
     #left .centerPos {
         text-align: center;
+    }
+
+    #gallery {
+        text-align: left;
     }
 }
 

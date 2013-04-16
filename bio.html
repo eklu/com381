@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="css/screen.css" media="screen" />
   <link rel="stylesheet" href="css/print.css" media="print" />
-  <link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+  <link rel="stylesheet" href="css/fresco.css" media="screen" />
 </head>
 
 <body>
@@ -44,7 +44,8 @@
       </div>
       <div id="right">
         <div class="centerPos">
-          <a href="images/self_pic.jpg" rel="lightbox" title="Korean Adoptee Day at the University of Wisconsin, Madison"><img src="images/self_pic.jpg" alt="Myself" /></a>
+          <a href="images/self_pic.jpg" class="fresco" data-fresco-caption="Korean Adoptee Day at the University of Wisconsin, Madison">
+          <img src="images/self_pic.jpg" alt="Myself" /></a>
           <p class="caption">Picture taken in Madison, WI on March 12, 2011.</p>
         </div>
       </div>
@@ -64,17 +65,18 @@
      
       </p>
       <p>
-        <a href="http://www.w3.org/html/logo/">HTML5 Powered with CSS3 / Styling</a>. Fonts by <a href="http://www.google.com/fonts/" rel="nofollow">Google Fonts</a>. Enhanced by <a href="http://jquery.com" rel="nofollow">jQuery</a>. Lightbox by <a href="http://lokeshdhakar.com/projects/lightbox2/" rel="nofollow">Lokesh Dhakar</a>.
+        <a href="http://www.w3.org/html/logo/">HTML5 Powered with CSS3 / Styling</a>. Fonts by <a href="http://www.google.com/fonts/" rel="nofollow">Google Fonts</a>. Enhanced by <a href="http://jquery.com" rel="nofollow">jQuery</a>. Lightbox by <a href="http://www.frescojs.com" rel="nofollow">FrescoJS</a>.
       </p>
     </div>
   </div>
   
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.18.18/jquery-ui.min.js"></script>
-  <script src="js/jquery.smooth-scroll.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/fonts.js"></script>
-  <script src="js/lightbox.js"></script>
-  
+  <script src="js/fresco.js"></script>
+  <!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
+  <!--[if lt IE 9]>
+    <script type='text/javascript' src='http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js'></script> 
+  <![endif]-->  
 </body>
 
 </html>

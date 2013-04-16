@@ -223,4 +223,21 @@ legend {
         font-size: x-small;
         font-style: italic;
     }
+
+    #gallery {
+    list-style-type: none;
+    text-align: left;
+    line-height: 50px;
+    margin:0;
+}
+
+    #gallery li {
+        list-style-type: none;
+        display: inline;
+        padding-right: 20px;
+    }
+
+    #gallery img {
+        height: 200px;
+    }
 }
