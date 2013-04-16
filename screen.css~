@@ -1,0 +1,333 @@
+﻿/*RESET CSS*/
+/* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
+html {
+    color: #000;
+    background: #FFF;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input, textarea, select {
+    *font-size: 100%;
+}
+
+legend {
+    color: #000;
+}
+
+#yui3-css-stamp.cssreset {
+    display: none;
+}
+
+/*DEFAULT STYLE MOBILE*/
+html {
+    background-color: #cbcbcb;
+}
+
+body {
+    margin: 0 20px;
+	 font-family: 'Sanchez', serif;    
+    
+    font-size: 1em;
+    line-height: 24px;
+}
+
+nav {
+	 text-transform:uppercase;
+    display: inline;
+    list-style: none outside none;
+}
+
+    nav li {
+        display: inline;
+    }
+
+        nav li + li:before {
+            content: "  ";
+            padding: 0 10px;
+        }
+
+#nav-bar {
+    text-align: center;
+    float: left;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#main {
+    padding-top: 5%;
+}
+
+#site-title {
+
+    text-transform: lowercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#page-title {
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 1.5em;
+}
+
+#logo {
+}
+
+    #logo img {
+        width: 100px;
+    }
+
+#contact {
+    display: inline;
+}
+
+    #contact li {
+        display: inline;
+    }
+
+        #contact li + li:before {
+            content: " | ";
+            padding: 0 10px;
+        }
+
+#content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#links {
+    display: inline;
+    text-align: center;
+}
+
+    #links a {
+        font-size:50px;
+        text-decoration:none;
+    }
+
+    #links a span {
+        visibility:hidden;
+    }
+
+    #links li {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
+
+        #links li:nth-child(1) {
+            background: transparent url("images/maillogo.png") no-repeat 0 0;
+            background-size:50px;
+        }
+
+        #links li:nth-child(2) {
+            background: transparent url("images/g+logo.png") no-repeat 0 0;
+            background-size:50px;
+        }
+
+        #links li:nth-child(3) {
+            background: transparent url("images/inlogo.png") no-repeat 0 0;
+            background-size:50px;
+        }
+
+#footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-small;
+}
+
+/*MOBILE LANDSCAPE & TABLET PORTRAIT*/
+@media (min-width:400px) and (orientation:landscape), (min-device-width:700px) and (orientation:portrait) {
+
+    #nav-bar {
+        width: 100px;
+        margin: 0;
+    }
+
+    #site-title {
+        position: absolute;
+        top: 50px;
+        left: 130px;
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    #page-title {
+        padding-top: 10px;
+        text-align: left;
+        font-size: 2em;
+        clear: both;
+    }
+
+    nav {
+        padding-top: 96px;
+        left: 130px;
+        position: absolute;
+        text-align: left;
+    }
+
+    #logo {
+        float: left;
+    }
+
+    #contact {
+        position: absolute;
+        top: 10px;
+        left: 150px;
+    }
+
+    #footer {
+        font-size: small;
+    }
+}
+
+/*DESKTOP*/
+@media (min-width:900px) {
+    body {
+        margin: 10px 10px;
+    }
+
+    #main {
+        margin: 0;
+        margin-left: 22%;
+        padding-left: 20px;
+        float: left;
+        border-left: 2px solid #aaaaaa;
+    }
+
+    #nav-bar {
+        width: 20%;
+        max-width: 200px;
+        margin: 10px 0;
+        height: 100%;
+        padding-right: 1.5%;
+        float: left;
+        position: fixed;
+        text-align: right;
+        overflow: auto;
+    }
+
+    #site-title {
+        margin: 0;
+        padding: 0;
+        position: static;
+        font-size: 3em;
+        text-align: left;
+    }
+
+    #page-title {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        position: static;
+        text-align: left;
+        font-size: 2em;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        padding-right: 10px;
+        position: static;
+        display: block;
+        line-height: 40px;
+        text-align: right;
+    }
+
+        nav li {
+            display: block;
+        }
+
+    #logo {
+        float: none;
+    }
+
+        #logo img {
+            width: 80%;
+            min-width: 100px;
+        }
+
+    #contact {
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
+        padding-right: 10px;
+        position: static;
+        display: block;
+    }
+
+        #contact li {
+            display: block;
+        }
+
+            #contact li + li:before {
+                content: none;
+            }
+
+    #footer {
+        font-size: medium;
+    }
+
+    #links {
+        position: absolute;
+        right: 5%;
+        top: 10%;
+    }
+}

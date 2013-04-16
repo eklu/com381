@@ -274,6 +274,29 @@ nav {
     content: " | ";
 }
 
+
+/*LIGHTBOX IMPLEMENTATION*/
+#lightbox-dim {
+    position:absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: .5;
+}
+
+#lightbox-full {
+    position:absolute;
+    display:none;
+    top:50%;
+    left:50%;
+}
+
+
 /*MOBILE LANDSCAPE & TABLET PORTRAIT*/
 @media (min-width:400px) and (orientation:landscape) {
 
