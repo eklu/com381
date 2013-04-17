@@ -283,7 +283,7 @@ nav {
     #gallery li {
         list-style-type: none;
         display: inline-block;
-        margin-right: 30px;
+        margin-right: 10px;
         margin-top: 20px;
     }
 
@@ -364,6 +364,10 @@ nav {
     #gallery {
         text-align: left;
     }
+        
+        #gallery li {
+            margin-right: 30px;
+        }
 }
 
 /*DESKTOP*/
