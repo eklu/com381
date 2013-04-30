@@ -1,7 +1,10 @@
-cs381
+com381
 =====
 
 Standards-Based Web Design
+
+Memo: Project 3
+My enhancement was a site-wide lightbox for single images and for galleries also. There were some challenges in scaling and responsiveness, but I found those interesting. Currently due to differences in mobile browsers (rendering and resolution), the lightbox will only be working for tablets and desktops.
 
 Memo: Project 2
 Well, this one took a while. I never realized how much impact little things like 10 pixels of space had on the entire view of a website. Content development was also a challenge, writing a lot of pages about myself essentially. In the future, I hope to add more graphics to add some imagery and color.
