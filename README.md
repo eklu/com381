@@ -1,7 +1,8 @@
-com381
+Personal Website
 =====
 
-Standards-Based Web Design
+Initially Built for Standards-Based Web Design Class
+HTML5 and CSS3 only, some jQuery
 
 Memo: Project 3
 My enhancement was a site-wide lightbox for single images and for galleries also. There were some challenges in scaling and responsiveness, but I found those interesting. Currently due to differences in mobile browsers (rendering and resolution), the lightbox will only be working for tablets and desktops.
