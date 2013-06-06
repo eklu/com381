@@ -839,7 +839,7 @@ only screen and (min-device-pixel-ratio: 2) {
   .fr-window-fresco .fr-side-button-icon,
   .fr-window-fresco .fr-close-icon,
   .fr-window-fresco .fr-side-button-icon {
-    background-image: url('skins/fresco/sprite@x2.png');
+    background-image: url('skins/fresco/spritex2.png');
     background-size: 500px 500px; /* downscaled 50%, size of original sprite */
   }
 }
