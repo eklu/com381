@@ -30,46 +30,4 @@
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>http://emmanuelklu.com/portfolio.html</loc>
-  <lastmod>2013-04-16T06:41:19+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/research.html</loc>
-  <lastmod>2013-04-16T06:17:26+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/projects-personal.html</loc>
-  <lastmod>2013-04-16T06:17:26+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/projects-school.html</loc>
-  <lastmod>2013-04-16T06:17:26+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/graphic-design.html</loc>
-  <lastmod>2013-04-16T06:52:29+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/interests.html</loc>
-  <lastmod>2013-04-16T06:17:32+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://emmanuelklu.com/involvement.html</loc>
-  <lastmod>2013-04-16T06:17:32+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
 </urlset>
